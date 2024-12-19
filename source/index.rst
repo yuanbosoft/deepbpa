@@ -3,7 +3,7 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
 
 .. toctree::
    :maxdepth: 1
-   :caption: 目录
+   :caption: Index
 
    blockchain
    privacycomputing
