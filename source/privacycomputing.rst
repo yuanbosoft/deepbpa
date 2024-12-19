@@ -3,6 +3,11 @@ Privacy Computing
 
 Homomorphic encryption
 -----------------------
+
+
+This is the first doc for ：Privacy Computing
+
+
 Zero-knowledge proofs
 ----------------------
 
