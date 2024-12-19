@@ -1,6 +1,14 @@
 Advanced Innovation Center for Future Blockchain and Privacy Computing
 ======================================================================
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 目录
+
+   blockchain
+   privacycomputing
+   trustedaintelligence
+
 Overview
 --------
 
@@ -76,11 +84,3 @@ Future Directions
 The center aims to expand its focus on **next-generation cryptographic protocols**, **quantum-resistant blockchain systems**, and **AI explainability in privacy-sensitive environments** to stay at the forefront of technological innovation.
 
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 目录
-
-   blockchain
-   privacycomputing
-   trustedaintelligence
