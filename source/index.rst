@@ -12,7 +12,7 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
 Overview
 --------
 
-The center focuses on three core research directions: **Blockchain**, **Privacy Technology**, and **Trusted Intelligence**. These areas aim to provide foundational solutions for secure, private, and intelligent systems across various industries.
+The center focuses on three core research directions: **Blockchain**, **Privacy Computing**, and **Trusted Intelligence**. These areas aim to provide foundational solutions for secure, private, and intelligent systems across various industries.
 
 Research Directions
 -------------------
@@ -55,12 +55,12 @@ The three research directions will be integrated into a unified technological fr
 Applications
 ------------
 
-- **Blockchain + Privacy Technology**:
+- **Blockchain + Privacy Computing**:
   - Secure digital currency systems
   - Decentralized finance (DeFi) applications with enhanced privacy
   - Blockchain-based identity management systems
 
-- **Privacy Technology + Trusted Intelligence**:
+- **Privacy Computing + Trusted Intelligence**:
   - Secure and private AI-driven healthcare systems
   - Privacy-preserving autonomous systems
   - Trusted cloud computing environments
