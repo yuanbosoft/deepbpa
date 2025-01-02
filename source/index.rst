@@ -9,6 +9,13 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
    privacycomputing
    trustedaintelligence
 
+.. toctree::
+   :maxdepth: 2
+
+   doc/offchain
+   doc/codebc
+
+
 Overview
 --------
 
@@ -21,7 +28,8 @@ Research Directions
    - **Objective**: Develop innovative blockchain technologies that enhance security, scalability, and decentralization for distributed applications.
    - **Key Areas**:
      - Blockchain consensus mechanisms
-     - Smart contract optimization
+     - `Smart Contract Code Generation Model`_
+     - `Off-chain scaling technology`_
      - Interoperability between different blockchain networks
      - Blockchain for supply chain management
      - Blockchain-enabled digital identity solutions
@@ -83,4 +91,5 @@ Future Directions
 
 The center aims to expand its focus on **next-generation cryptographic protocols**, **quantum-resistant blockchain systems**, and **AI explainability in privacy-sensitive environments** to stay at the forefront of technological innovation.
 
-
+.. _Off-chain scaling technology: doc/offchain.html
+.. _Smart Contract Code Generation Model: doc/codebc.html
