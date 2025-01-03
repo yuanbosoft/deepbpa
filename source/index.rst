@@ -2,16 +2,12 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
 ======================================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Index
 
    blockchain
    privacycomputing
    trustedaintelligence
-
-.. toctree::
-   :maxdepth: 2
-
    doc/offchain
    doc/codebc
 
