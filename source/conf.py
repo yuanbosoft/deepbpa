@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'DeepBPA'
-copyright = '2024, BUAA Advanced Innovation Center for Future Blockchain and Privacy Computing'
+copyright = '2025, Advanced Innovation Center for Future Blockchain and Privacy Computing'
 author = 'Buaaer'
 release = 'v1.0'
 
