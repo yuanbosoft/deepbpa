@@ -26,3 +26,22 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../src'))
+
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+]
+html_theme_options = {
+    'navigation_depth': 4,  # 设置为4，确保显示第三级
+}
+
