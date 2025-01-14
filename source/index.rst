@@ -9,6 +9,7 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
    doc/codebc
    doc/fedllama
    doc/adaaggrl
+   doc/metaverse
 
 
 Overview
