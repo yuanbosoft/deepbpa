@@ -10,6 +10,8 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
    doc/fedllama
    doc/adaaggrl
    doc/metaverse
+   doc/se
+   doc/hibe
 
 
 Overview
