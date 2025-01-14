@@ -5,11 +5,10 @@ Advanced Innovation Center for Future Blockchain and Privacy Computing
    :maxdepth: 2
    :caption: Index
 
-   blockchain
-   privacycomputing
-   trustedaintelligence
    doc/offchain
    doc/codebc
+   doc/fedllama
+   doc/adaaggrl
 
 
 Overview

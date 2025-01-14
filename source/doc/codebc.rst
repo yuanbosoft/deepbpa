@@ -1,4 +1,4 @@
-CodeBC: A Blockchain Smart Contract Code Generation Model
+智能合约代码生成模型(CodeBC)
 =========================================================
 
 1. 项目背景
@@ -28,23 +28,23 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
 .. image:: ../images/codebc1.png
 
 阶段 1：多任务微调
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 包含两个核心任务：
 - **代码填充任务**：学习代码上下文与结构信息，用于生成高质量代码。
 - **漏洞检测任务**：通过分析代码安全性标签 ("correct"/"bug")，增强漏洞识别能力。
 
 阶段 2：标签导向的指令微调
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 通过结合自然语言指令与安全标签，生成满足功能需求且安全的智能合约代码。
 
 3. 接口设计
 -----------
 
 3.1 通用接口设计
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 环境初始化接口
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: python
 
     def initialize_environment(gpu_index: int, seed: int) -> None:
@@ -53,7 +53,7 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
         """
 
 数据加载接口
-^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: python
 
     def load_dataset(dataset_path: str, task: str) -> Dict:
@@ -62,10 +62,10 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
         """
 
 3.2 阶段 1: 多任务微调接口
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 代码填充任务接口
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: python
 
     def code_fill_task(model, dataset: Dict, tokenizer, epochs: int, lr: float) -> None:
@@ -74,7 +74,7 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
         """
 
 漏洞检测任务接口
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: python
 
     def vul_detect_task(model, dataset: Dict, tokenizer, epochs: int, lr: float) -> None:
@@ -83,7 +83,7 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
         """
 
 3.3 阶段 2: 标签导向的指令微调接口
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. code-block:: python
 
     def instruction_finetune(model, dataset: Dict, tokenizer, epochs: int, lr: float) -> None:
@@ -92,9 +92,9 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
         """
 
 3.4 推理接口
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 单指令推理接口
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: python
 
     def generate_code(model, instruction: str, safety_label: str) -> str:
@@ -103,7 +103,7 @@ CodeBC 基于 CodeLlama，设计了两阶段微调架构：
         """
 
 批量推理接口
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: python
 
     def batch_generate_code(model, instructions: List[str], safety_labels: List[str]) -> List[str]:
